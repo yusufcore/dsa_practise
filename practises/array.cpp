@@ -1,16 +1,19 @@
 #include <iostream>
+#include <stdio.h>
 using namespace std;
 
 int main(){
-    int A[5];
-    A[0] = 12;
-    A[1] = 15;
-    A[2] = 25;
-
-    cout<<sizeof(A[0])<<endl;
-    cout<<A[1]<<endl;
+    int A[10] = {2, 4, 6, 8, 10};
+    // A[0] = 12;
+    // A[1] = 15;
+    // A[2] = 25;
+    
+    for(int i=0; i<10; i++){   // displays the elements of the array
+        cout<<A[i]<<endl;
+    }
+    // cout<<sizeof(A)<<endl;
+    // cout<<A[8]<<endl;
+    // printf("%d\n", A[8]);
 
     return 0;
 }
-// size of int ---> 4 bytes.
-// 5 * 4 = 20 bytes(size of array A).
