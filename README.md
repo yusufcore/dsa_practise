@@ -18,7 +18,7 @@ The purpose of this repository is to strengthen my understanding of core DSA con
 
 ## 💻 Language
 
-- C++
+- C/C++
 
 ---
 
