@@ -1,4 +1,4 @@
-# 📚 Data Structures & Algorithms Practice
+# 📚 Data Structures Practice using C/C++
 
 A structured collection of my Data Structures and Algorithms implementations in **C++**, built while following **Abdul Bari's Data Structures and Algorithms course**.
 
