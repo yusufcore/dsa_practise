@@ -51,7 +51,7 @@ int linearsearch(struct Array *arr, int key){    // linear searching.
     int i;
     for(i = 0; i < arr->length; i++){
         if(key == arr->A[i]){
-            swap(&arr->A[i], &arr->A[i-1]);
+            swap(&arr->A[i], &arr->A[i-1]);    // transposition.
             return i;
         }
     } return -1;
