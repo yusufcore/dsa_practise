@@ -64,5 +64,4 @@ int main(){
     printf("%d\n", linearsearch(&arr, 5));
     display(arr);
     return 0;
-
 }
