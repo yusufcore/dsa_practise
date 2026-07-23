@@ -28,7 +28,7 @@ void insert(struct Array *arr, int index, int x){   // shifting and inserting
         arr->length++;
     }
 }
-int delete(struct Array *arr, int index){
+int delete(struct Array *arr, int index){         // deleting an element on a given index.
     int x = 0;
 
     if(index>=0 && index<arr->length){
