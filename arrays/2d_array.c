@@ -38,8 +38,6 @@ int main(){
         printf("\n");
     }
 
+
     return 0;
 }
-/*Notes --> 
-B pointer is in stack and the arrays are in heap;
-C pointer and the arrays both are in heap except the double pointer which is in stack.*/
