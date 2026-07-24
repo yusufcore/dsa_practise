@@ -69,7 +69,7 @@ int binarysearch(struct Array *arr, int low, int high, int key){      // Binary 
     }
     return -1;
 }
-int get(struct Array *arr, int index){
+int get(struct Array *arr, int index){    // to fidn the elemnt at specific index.
     if(index>=0 && index < arr->length){
         return arr->A[index];
     }
