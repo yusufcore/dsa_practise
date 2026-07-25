@@ -124,9 +124,17 @@ void reverse_method1(struct Array *arr){    // reversing an array using an auxil
         arr->A[i] = B[i];
     }
 }
+void reverse_method2(struct Array *arr){    // reversing an array using swap method.
+    int i;
+    int j;
+    for(i=0,j=arr->length - 1; i < j; i++, j--){
+         swap(&arr->A[i], &arr->A[j]);   
+    }
+}
 int main(){ 
     struct Array arr = {{2,3,9,1,6}, 10, 5};   // 10 is size of array, and 5 are the total elements contained in array(length).
     reverse_method1(&arr);
+    reverse_method2(&arr);
     display(arr);
     return 0;
 }
