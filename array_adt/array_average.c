@@ -111,8 +111,9 @@ double average(struct Array *arr){   // to find the average of all the elemnts i
     }
     return (double)total / arr->length;
 }
+
 int main(){ 
-   
+    
     struct Array arr = {{2,3,9,1,6}, 10, 5};   // 10 is size of array, and 5 are the total elements contained in array(length).
     double m = average(&arr);
     printf("Average of all element inside the array is = %lf\n", m);
