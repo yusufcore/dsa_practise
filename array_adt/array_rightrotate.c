@@ -152,10 +152,24 @@ void rightrotate(struct Array *arr){
     }
     arr->A[0] = f;
 }
+void insert_inSortedArray(struct Array *arr, int x){
+    int i = arr->length-1;
+    if(arr->length == arr-> size){   // check if array has empty spaces or not.
+        return;
+    }
+    while(i>=0 && arr->A[i] > x){
+        arr->A[i+1]= arr->A[i];
+        i--;
+    }
+    arr->A[i+1]=x;
+    arr->length++;
+
+}
 int main(){ 
-    struct Array arr = {{2,3,9,1,6}, 10, 5};   // 10 is size of array, and 5 are the total elements contained in array(length).
-    display(arr);
-    rightrotate(&arr);
+    struct Array arr = {{2,3,5,7,9}, 10, 5};   // 10 is size of array, and 5 are the total elements contained in array(length).
+    // display(arr);
+    // rightrotate(&arr);
+    insert_inSortedArray(&arr, 6);
     display(arr);
     return 0;
 }
