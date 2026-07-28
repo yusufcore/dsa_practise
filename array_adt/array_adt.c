@@ -30,6 +30,4 @@ int main(){
     }
     arr.length=n;
     display(arr);
-
-
 }
