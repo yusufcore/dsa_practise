@@ -7,7 +7,7 @@ int main(){
     int i = 0;
     int j = len -1;
     int temp;
-    while(i < j){
+    while(i < j){    // use swapping method. 
         temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
