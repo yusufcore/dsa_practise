@@ -27,7 +27,7 @@ The purpose of this repository is to strengthen my understanding of core DSA con
 ```text
 dsa_practice/
 │
-├── adt/
+├── array_adt/
 ├── arrays/
 ├── avl_trees/
 ├── bst/
